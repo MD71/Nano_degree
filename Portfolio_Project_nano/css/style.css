@@ -1,0 +1,44 @@
+* {
+box-sizing: border-box;
+}
+body{
+  background-color : #c6c6c6;
+}
+
+hr.style {
+	border-top: 3px double #8c8b8b;
+}
+.top_header{
+  color: white;
+}
+
+.me_logo img{
+  margin-top: -10px;
+  margin-bottom: -10px;
+  width: 40%;
+}
+
+.banner {
+  width: 100%;
+}
+.featured {
+  color:#7d97ad;
+}
+
+
+/* Media Query */
+@media only screen and ( max-width: 991px)  {
+body {
+  background-color:green;
+}
+
+.me_logo img{
+  margin-top: 0px;
+  margin-bottom: 0;
+  width: 10%;
+  border-style: solid;
+  border-color: color:red;
+}
+
+
+}
